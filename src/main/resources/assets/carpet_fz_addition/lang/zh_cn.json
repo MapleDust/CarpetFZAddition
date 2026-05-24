@@ -1,0 +1,9 @@
+{
+  "carpet.category.FZ": "FZ",
+
+  "carpet.rule.commandCameraMode": "摄像机模式",
+  "carpet.rule.commandCameraMode.desc": "允许玩家使用摄像机模式",
+
+  "carpet.rule.spawnWhitelistedFakePlayer": "白名单假人",
+  "carpet.rule.spawnWhitelistedFakePlayer.desc": "允许玩家召唤白名单假人"
+}

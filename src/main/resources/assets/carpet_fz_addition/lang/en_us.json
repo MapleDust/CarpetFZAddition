@@ -1,0 +1,9 @@
+{
+  "carpet.category.FZ": "FZ",
+
+  "carpet.rule.commandCameraMode": "Camera Mode",
+  "carpet.rule.commandCameraMode.desc": "Allow players to use camera mode",
+
+  "carpet.rule.spawnWhitelistedFakePlayer": "Whitelisted fake player",
+  "carpet.rule.spawnWhitelistedFakePlayer.desc": "Allow players to spawn whitelisted fake player"
+}
