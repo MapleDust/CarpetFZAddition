@@ -1,9 +1,6 @@
-# Example Mod
-
-## Setup
-
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+# Carpet FZ Addition
+## 功能
+### 1.摄像机模式
+- 允许玩家旁观和生存模式切换（玩家可使用`/c`（旁观）和`/s`（生存）来切换）
+### 2.白名单假人
+- 可以召唤白名单中的假人，开启白名单后，默认carpet是召唤不了白名单中的假人
