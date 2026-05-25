@@ -1,6 +1,7 @@
 package top.fcidd.mixin;
 
 import carpet.commands.PlayerCommand;
+import carpet.utils.Messenger;
 import com.mojang.brigadier.context.CommandContext;
 import net.minecraft.commands.CommandSourceStack;
 import org.spongepowered.asm.mixin.Mixin;
@@ -20,8 +21,17 @@ public abstract class PlayerCommandMixin {
             cancellable = true
     )
     private static void shouldCheckWhitelist(CommandContext<CommandSourceStack> context, CallbackInfoReturnable<Boolean> cir) {
+        // 启用召唤白名单中的假人
         if (Boolean.parseBoolean(CarpetFZAdditionSetting.spawnWhitelistedFakePlayer)) {
+            // 服务器是否开启白名单的值强制修改成false
             cir.setReturnValue(false);
+        }
+        // 未启用召唤白名单中的假人
+        if (!Boolean.parseBoolean(CarpetFZAdditionSetting.spawnWhitelistedFakePlayer)) {
+            // 服务器是否开启白名单改为真实的值
+            cir.setReturnValue(context.getSource().getServer().isUsingWhitelist());
+            // 发送提示
+            Messenger.m(context.getSource(), "r Whitelisted players can only be spawned by operators");
         }
     }
 }
