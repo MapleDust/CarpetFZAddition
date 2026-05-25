@@ -9,7 +9,7 @@ public class CarpetFZAdditionSetting {
     // 摄像机模式
     @Rule(
             options = {"true", "false", "ops", "1", "2", "3", "4"},
-            categories = {FZ},
+            categories = {FZ,"command"},
             validators = Validators.CommandLevel.class
 
     )
