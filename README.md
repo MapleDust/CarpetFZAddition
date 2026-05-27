@@ -1,6 +1,13 @@
 # Carpet FZ Addition
-## 功能
-### 1.摄像机模式
-- 允许玩家旁观和生存模式切换（玩家可使用`/c`（旁观）和`/s`（生存）来切换）
-### 2.白名单假人
-- 可以召唤白名单中的假人，开启白名单后，默认carpet是召唤不了白名单中的假人
+Carpet Addition for the FZ server
+## Features
+### 1. Camera Mode(commandCameraMode)
+- default:`false`
+- options:`true` `false` `ops` `1` `2` `3` `4`
+- use:`/carpet commandCameraMode <options>`
+- info:Allows players to toggle between Spectator and Survival modes (players can use `/c` (Spectator) and `/s` (Survival) to switch)
+### 2. Whitelist fake player(spawnWhitelistedFakePlayer)
+- default:`false`
+- options:`true` `false`
+- use:`/carpet spawnWhitelistedFakePlayer <options>`
+- info:Allows spawn fake player on the whitelist; by default, Carpet cannot spawn fake player on the whitelist unless the whitelist is enabled
