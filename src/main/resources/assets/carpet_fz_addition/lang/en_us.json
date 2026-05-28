@@ -1,4 +1,6 @@
 {
+  "carpetfzaddition.version":"version",
+
   "carpet.category.FZ": "FZ",
 
   "carpet.rule.commandCameraMode": "Camera Mode",
