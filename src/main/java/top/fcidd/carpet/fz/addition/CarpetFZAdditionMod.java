@@ -6,6 +6,8 @@ import net.fabricmc.loader.api.FabricLoader;
 public class CarpetFZAdditionMod implements ModInitializer {
     // fz扩展id
     public static final String MOD_ID = "carpet_fz_addition";
+    // fz扩展名称
+    public static final String MOD_NAME = "Carpet FZ Addition";
     // fz扩展版本
     public static String version;
 
