@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"top.fcidd.CarpetFZAdditionMod"
+          "top.fcidd.carpet.fz.addition.CarpetFZAdditionMod"
 		]
 	},
 	"mixins": [

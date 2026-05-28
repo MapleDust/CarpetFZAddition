@@ -1,4 +1,4 @@
-package top.fcidd;
+package top.fcidd.carpet.fz.addition;
 
 import carpet.api.settings.Rule;
 import carpet.api.settings.Validators;

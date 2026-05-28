@@ -1,4 +1,4 @@
-package top.fcidd.mixin;
+package top.fcidd.carpet.fz.addition.mixin;
 
 import carpet.commands.PlayerCommand;
 import carpet.utils.Messenger;
@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import top.fcidd.CarpetFZAdditionSetting;
+import top.fcidd.carpet.fz.addition.CarpetFZAdditionSetting;
 
 @Mixin(PlayerCommand.class)
 public abstract class PlayerCommandMixin {

@@ -1,4 +1,4 @@
-package top.fcidd.api;
+package top.fcidd.carpet.fz.addition.api;
 
 import carpet.utils.Translations;
 import net.minecraft.ChatFormatting;
@@ -7,7 +7,7 @@ import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.network.chat.Style;
 import net.minecraft.network.chat.TextColor;
 import org.jetbrains.annotations.Nullable;
-import top.fcidd.CarpetFZAdditionMod;
+import top.fcidd.carpet.fz.addition.CarpetFZAdditionMod;
 
 import java.util.Arrays;
 import java.util.HashMap;
